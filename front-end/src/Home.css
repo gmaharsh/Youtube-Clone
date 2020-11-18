@@ -1,0 +1,10 @@
+.home{
+    flex: 0.8;
+    background-color: rgba(33, 33, 33, 0.9);
+    padding: 40px 20px;
+    padding-bottom: 0;
+}
+
+.home > h1{
+    color: white;
+}

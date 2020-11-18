@@ -1,5 +1,44 @@
 .Sidebar{
-    width: 15%;
-    height: 100%;
-    background-color: rgba(33, 33, 33, 1);
+    flex: 0.2;
+    background-color: rgba(33, 33, 33, 0.9);
+    overflow-y: scroll;
+}
+
+.sidebar__row{
+    margin-top: 15px;
+    border-bottom: 1px solid gray;
+}
+
+.sidebar__icons{
+    display: flex;
+    padding: 15px;
+    color: gray;
+}
+
+.sidebar__title{
+    flex: 1;
+    font-size: medium !important;
+    margin-left: 20px;
+    color: white;
+    font-weight: 300;
+}
+
+.active{
+    background-color:#303030;
+}
+
+.sidebar__row :hover{
+    background-color: #303030;
+    cursor: pointer;
+}
+
+.sidebar_subscription{
+    color: gray;
+    font-size: large !important;
+    margin-left: 20px;
+
+}
+
+.sidebar__avatar{
+    font-size: small !important;
 }
